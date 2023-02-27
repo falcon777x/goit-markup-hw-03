@@ -4,6 +4,8 @@
 	--secondary-background-color: #2e2f42;
 	--hover-link-color: #404bbf;
 }
+/* --------global style reset------ */
+/* --------------------------------- */
 
 body {
 	background-color: #fff;
@@ -81,18 +83,29 @@ a {
 
 .hero-section {
 	background-color: var(--secondary-background-color);
+	text-align: center;
+	margin-bottom: 120px;
 }
 
-h1 {
+.hero-section-title {
+	font-family: Roboto;
+	padding-top: 180px;
+	margin-bottom: 48px;
+	min-width: 496px;
 	color: #fff;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
+	text-align: center;
 }
 
 .hero-section-button {
+	padding: 16px 32px;
+	margin-bottom: 196px;
+	min-width: 169px;
+	/* later i will give min width if needed */
 	font-family: Roboto;
 	font-size: 16px;
 	font-weight: 500;
@@ -101,7 +114,6 @@ h1 {
 	border-style: solid;
 	border-radius: 4px;
 	border: none;
-
 	background-color: #4d5ae5;
 	color: #fff;
 }
@@ -163,6 +175,7 @@ footer {
 }
 
 .filters-buttons {
+	padding: 12px 24px;
 	font-family: Roboto;
 	background-color: #f4f4fd;
 	color: #4d5ae5;
@@ -184,4 +197,95 @@ footer {
 .filters-buttons:hover {
 	background-color: var(--hover-link-color);
 	color: #fff;
+}
+
+/* -------------------FLEX-------------------- */
+.container {
+	width: 1158px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+	outline: tomato solid 2px;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	margin-bottom: 8px;
+}
+
+.our-work-title {
+	text-align: center;
+	margin-bottom: 72px;
+}
+
+section {
+	margin-bottom: 120px;
+}
+
+.our-team-title {
+	text-align: center;
+	margin-bottom: 72px;
+	padding-top: 120px;
+}
+
+.footer-text {
+	width: 264px;
+	padding-bottom: 100px;
+}
+
+.logo-footer {
+	display: block;
+	padding-top: 100px;
+	margin-bottom: 16px;
+}
+
+.logo-head {
+	display: block;
+	padding-bottom: 24px;
+	padding-top: 24px;
+	margin-left: 156px;
+}
+/* -------------flex start--------- */
+
+.navigation-links {
+	display: flex;
+	margin-left: 76px;
+}
+
+.nav-link-item {
+	display: block;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	background-color: tomato;
+}
+.nav-link-item:last-child {
+	margin-right: 0;
+}
+.nav-link-item:not(:last-child) {
+	margin-right: 40px;
+}
+
+.address-link {
+	display: flex;
+}
+.addess-link-item:not(:last-child) {
+	margin-right: 40px;
+}
+.addess-link-item {
+	display: block;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	background-color: tomato;
+}
+
+.header-line {
+	display: flex;
+}
+
+nav {
+	display: flex;
+	align-items: center;
 }
