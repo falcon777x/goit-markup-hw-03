@@ -4,8 +4,8 @@
 	--secondary-background-color: #2e2f42;
 	--hover-link-color: #404bbf;
 }
-/* --------global style reset------ */
-
+/* --------styles reset------ */
+h1,
 h2,
 h3,
 p {
@@ -111,7 +111,6 @@ a {
 .hero-section {
 	background-color: var(--secondary-background-color);
 	text-align: center;
-	/* margin-bottom: 120px; */
 }
 
 .hero-section-title {
@@ -241,19 +240,11 @@ body {
 	margin: 0;
 }
 
-header {
-	margin-bottom: 8px;
-}
-
 .our-work-title {
 	text-align: center;
 	/* margin-bottom: 72px; */
 	margin-top: 0;
 	padding-bottom: 72px;
-}
-
-section {
-	/* margin-bottom: 120px; */
 }
 
 .fourth-section {
@@ -328,14 +319,14 @@ nav {
 	align-items: center;
 }
 /* ----------------------section 2-3------------------------- */
-.title-list {
+.title-list,
+.visual-list {
 	display: flex;
 	justify-content: space-between;
 	padding-left: 0;
 	gap: 24px;
 }
-.title-list-pad {
-}
+
 .title-list:last-child {
 	padding-right: 15px;
 }
@@ -408,19 +399,15 @@ nav {
 
 /* ------------------------ */
 /* header {
-	outline: 1px solid tomato;} */
-/* .hero-section {
 	outline: 1px solid tomato;
 }
-.section-2 {
+.hero-section {
 	outline: 1px solid tomato;
 }
+.section-2,
 .section-3 {
 	outline: 1px solid tomato;
-}
-.fourth-section {
-	outline: 1px solid tomato;
-}
-footer {
-	outline: 1px solid tomato;
 } */
+.visual-work {
+	padding-bottom: 120px;
+}
