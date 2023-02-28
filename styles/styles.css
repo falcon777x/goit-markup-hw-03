@@ -5,6 +5,24 @@
 	--hover-link-color: #404bbf;
 }
 /* --------global style reset------ */
+
+h2,
+h3,
+p {
+	margin: 0;
+	padding: 0;
+}
+img {
+	display: block;
+}
+.section {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
 /* --------------------------------- */
 
 body {
@@ -18,6 +36,7 @@ body {
 	letter-spacing: 0.02em;
 
 	list-style: none;
+	width: 1440px;
 }
 
 ul {
@@ -64,6 +83,14 @@ a {
 	color: var(--hover-link-color);
 }
 
+.navigation-links:last-child {
+	margin-right: 292px;
+}
+
+.border-header {
+	border-bottom: 1px solid #e7e9fc;
+}
+
 /* changing address font and color */
 .address {
 	font-style: normal;
@@ -84,13 +111,14 @@ a {
 .hero-section {
 	background-color: var(--secondary-background-color);
 	text-align: center;
-	margin-bottom: 120px;
+	/* margin-bottom: 120px; */
 }
 
 .hero-section-title {
 	font-family: Roboto;
 	padding-top: 180px;
 	margin-bottom: 48px;
+	margin-top: 0;
 	min-width: 496px;
 	color: #fff;
 	font-style: normal;
@@ -187,6 +215,7 @@ footer {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
+
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -205,7 +234,7 @@ footer {
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-	outline: tomato solid 2px;
+	/* outline: tomato solid 2px; */
 }
 
 body {
@@ -218,17 +247,25 @@ header {
 
 .our-work-title {
 	text-align: center;
-	margin-bottom: 72px;
+	/* margin-bottom: 72px; */
+	margin-top: 0;
+	padding-bottom: 72px;
 }
 
 section {
-	margin-bottom: 120px;
+	/* margin-bottom: 120px; */
+}
+
+.fourth-section {
+	margin-bottom: 0;
+	padding-bottom: 120px;
 }
 
 .our-team-title {
 	text-align: center;
 	margin-bottom: 72px;
 	padding-top: 120px;
+	margin-top: 0;
 }
 
 .footer-text {
@@ -246,21 +283,22 @@ section {
 	display: block;
 	padding-bottom: 24px;
 	padding-top: 24px;
-	margin-left: 156px;
+	margin-left: 0;
+	margin-right: 36px;
 }
 /* -------------flex start--------- */
 
 .navigation-links {
 	display: flex;
-	margin-left: 76px;
 }
 
 .nav-link-item {
 	display: block;
 	padding-top: 24px;
 	padding-bottom: 24px;
-	background-color: tomato;
+	/* background-color: tomato; */
 }
+
 .nav-link-item:last-child {
 	margin-right: 0;
 }
@@ -278,7 +316,7 @@ section {
 	display: block;
 	padding-top: 24px;
 	padding-bottom: 24px;
-	background-color: tomato;
+	/* background-color: tomato; */
 }
 
 .header-line {
@@ -289,3 +327,100 @@ nav {
 	display: flex;
 	align-items: center;
 }
+/* ----------------------section 2-3------------------------- */
+.title-list {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0;
+	gap: 24px;
+}
+.title-list-pad {
+}
+.title-list:last-child {
+	padding-right: 15px;
+}
+.main-paragraph {
+	width: 264px;
+}
+
+.card-titles {
+	display: flex;
+	justify-content: space-between;
+	gap: 24px;
+	padding-left: 0;
+}
+/* .card-title:last-child {
+	padding-right: 15px;
+} */
+
+.team-card h3 {
+	text-align: center;
+	padding-top: 32px;
+	margin-bottom: 8px;
+}
+
+.team-card p {
+	text-align: center;
+	padding-bottom: 32px;
+}
+.title-list {
+	padding-bottom: 120px;
+	padding-top: 120px;
+}
+
+.title-list h3 {
+	margin-bottom: 8px;
+}
+
+/* ---------------portfolio flex----------------- */
+.filters {
+	display: flex;
+	margin-top: 96px;
+	margin-bottom: 72px;
+	gap: 24px;
+	justify-content: center;
+}
+.portfolio-title:last-child {
+	margin-bottom: 120px;
+}
+
+.portfolio-title {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0;
+	row-gap: 48px;
+}
+.portfolio-title h2,
+.portfolio-title p {
+	margin-left: 16px;
+}
+.portfolio-title h2 {
+	margin-top: 32px;
+	margin-bottom: 8px;
+}
+.portfolio-title p {
+	margin-bottom: 32px;
+}
+.portfolio-title li {
+	outline: 1px solid #e7e9fc;
+}
+
+/* ------------------------ */
+/* header {
+	outline: 1px solid tomato;} */
+/* .hero-section {
+	outline: 1px solid tomato;
+}
+.section-2 {
+	outline: 1px solid tomato;
+}
+.section-3 {
+	outline: 1px solid tomato;
+}
+.fourth-section {
+	outline: 1px solid tomato;
+}
+footer {
+	outline: 1px solid tomato;
+} */
