@@ -128,9 +128,8 @@ a {
 
 .hero-section-button {
 	padding: 16px 32px;
-	/* margin-bottom: 196px; */
+
 	min-width: 169px;
-	/* later i will give min width if needed */
 	font-family: Roboto;
 	font-size: 16px;
 	font-weight: 500;
@@ -231,7 +230,6 @@ footer {
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-	/* outline: tomato solid 2px; */
 }
 
 body {
@@ -240,32 +238,32 @@ body {
 
 .our-work-title {
 	text-align: center;
-	/* margin-bottom: 72px; */
+	margin-bottom: 72px;
 	margin-top: 0;
-	padding-bottom: 72px;
 }
 
 .fourth-section {
-	margin-bottom: 0;
+	padding-top: 120px;
 	padding-bottom: 120px;
 }
 
 .our-team-title {
 	text-align: center;
 	margin-bottom: 72px;
-	padding-top: 120px;
 	margin-top: 0;
 }
 
 .footer-text {
 	width: 264px;
-	padding-bottom: 100px;
 }
 
 .logo-footer {
 	display: block;
-	padding-top: 100px;
 	margin-bottom: 16px;
+}
+footer {
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .logo-head {
@@ -285,7 +283,6 @@ body {
 	display: block;
 	padding-top: 24px;
 	padding-bottom: 24px;
-	/* background-color: tomato; */
 }
 
 .nav-link-item:last-child {
@@ -305,7 +302,6 @@ body {
 	display: block;
 	padding-top: 24px;
 	padding-bottom: 24px;
-	/* background-color: tomato; */
 }
 
 .header-line {
@@ -338,19 +334,14 @@ nav {
 	gap: 24px;
 	padding-left: 0;
 }
-/* .card-title:last-child {
-	padding-right: 15px;
-} */
 
 .team-card h3 {
 	text-align: center;
-	/* padding-top: 32px; */
 	margin-bottom: 8px;
 }
 
 .team-card p {
 	text-align: center;
-	/* padding-bottom: 32px; */
 }
 
 .title-list h3 {
@@ -383,18 +374,6 @@ nav {
 	padding-top: 32px;
 	padding-bottom: 32px;
 }
-
-/* ------------------------ */
-/* header {
-	outline: 1px solid tomato;
-} */
-/* .hero-section {
-	outline: 1px solid tomato;
-}
-.section-2,
-.section-3 {
-	outline: 1px solid tomato;
-} */
 
 address {
 	margin-left: auto;
